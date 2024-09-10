@@ -5,6 +5,14 @@
     --flag_height :240px
 }
 
+.heading{
+padding: 50px;
+text-align: center;
+background: #797c69;
+color: white;
+font-size: 60px;
+}
+
 .container{
     height: var(--flag_height);
     width: calc(var(--flag_height) * 3/2);
