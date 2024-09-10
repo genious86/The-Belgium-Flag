@@ -2,5 +2,29 @@
     --black: #000000;
     --yellow: #ffe206;
     --red: #ff0000;
-    --flag_height :180px
+    --flag_height :240px
+}
+
+.container{
+    height: var(--flag_height);
+    width: calc(var(--flag_height) * 3/2);
+    background: white;
+    margin: 2em auto;
+    display: flex;
+}
+
+.stripe{
+    flex-grow: 1;
+}
+
+.black{
+    background: var(--black);
+}
+
+.Yellow{
+    background: var(--yellow);
+}
+
+.Red{
+    background: var(--red);
 }
